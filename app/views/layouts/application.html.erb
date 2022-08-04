@@ -11,8 +11,11 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
-    <main>
+    <header>
       <%= render 'layouts/navbar' %>
+      <%= render 'layouts/alerts' %>
+    </header>
+    <main>
       <%= yield %>
     </main>
   </body>
