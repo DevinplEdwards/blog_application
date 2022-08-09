@@ -6,7 +6,10 @@ Rails.application.routes.draw do
   }
   get '/u/:id', to: 'users#profile', as: 'user'
 
-  resources :posts
+  #attaches comments to posts (i.e. /posts/1/comments/4)
+  resources :posts do
+    resources :comments
+  end
   get 'about', to: 'pages#about'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
