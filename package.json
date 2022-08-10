@@ -2,7 +2,9 @@
   "name": "blog_demo",
   "private": true,
   "dependencies": {
-    "actiontext": "https://github.com/kobaltz/actiontext"
+    "@rails/webpacker": "^5.4.3",
+    "actiontext": "https://github.com/kobaltz/actiontext",
+    "stimulus": "^3.1.0"
   },
   "devDependencies": {
     "webpack-dev-server": "^4.9.3"

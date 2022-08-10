@@ -65,7 +65,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails', groups: [:development, :test]
 gem "ruby-lsp", "~> 0.0.4", :group => :development
 gem 'devise'
-gem 'webpacker', '~>4.x'
+gem 'webpacker', '~>5.x'
 gem 'actiontext', github:'kobaltz/actiontext', branch:'archive', require:'action_text'
 gem 'image_processing'
 gem 'jquery-rails'
